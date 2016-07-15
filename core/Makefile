@@ -1180,7 +1180,7 @@ INTERNAL_SYSTEMIMAGE_FILES := $(filter $(TARGET_OUT)/%, \
 
 systemimage-changelog: $(INTERNAL_SYSTEMIMAGE_FILES)
 	@echo -e "Making changelog!"
-	$(hide) APKCERTS=$(APKCERTS_FILE) ./vendor/benzo/tools/changelog
+	$(hide) APKCERTS=$(APKCERTS_FILE) ./vendor/xosp/tools/changelog
 
 .PHONY: systemimage-changelog
 
